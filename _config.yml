@@ -1,0 +1,11 @@
+lang: ru-RU
+encoding: utf-8
+name: Dee
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
+
+gems:
+  - jekyll-paginate
+
+paginate: 10
+paginate_path: "blog/page:num"

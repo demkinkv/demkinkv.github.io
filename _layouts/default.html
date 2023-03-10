@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang }}">
+  <head>
+    <title>{{ page.title }}</title>
+
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+
+  </head>
+
+
+  <body>
+    <nav>
+<ul>
+<li><a href="/">Home</a></li>
+<li><a href="/about">About</a></li>
+<li><a href="/cv">CV</a></li>
+<li><a href="/blog">Blog</a></li>
+</ul>
+    </nav>
+<div class="container">
+
+  {{ content }}
+
+</div>
+
+  <footer>
+   <ul>
+   <li><a href="https://github.com/demkinkv">github.com/demkinkv</a></li>
+   </ul>
+  </footer>
+  </body>
+
+</html>
